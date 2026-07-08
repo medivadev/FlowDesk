@@ -6,4 +6,30 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FlowDesk.Domain\FlowDesk.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Common\" />
+    <Folder Include="Features\Authentication\Commands\" />
+    <Folder Include="Features\Authentication\DTOs\" />
+    <Folder Include="Features\Authentication\Endpoints\" />
+    <Folder Include="Features\Authentication\Validators\" />
+    <Folder Include="Features\Authentication\Queries\" />
+    <Folder Include="Features\Organizations\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="DependencyInjection\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Application\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Application\.editorconfig" />
+  </ItemGroup>
+
 </Project>

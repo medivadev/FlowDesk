@@ -7,7 +7,32 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlowDesk.Application\FlowDesk.Application.csproj" />
+    <ProjectReference Include="..\FlowDesk.Infrastructure\FlowDesk.Infrastructure.csproj" />
+    <ProjectReference Include="..\FlowDesk.Persistence\FlowDesk.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Endpoints\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="DependencyInjection\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Api\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Api\.editorconfig" />
   </ItemGroup>
 
 </Project>

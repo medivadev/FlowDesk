@@ -10,4 +10,18 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.9" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlowDesk.Application\FlowDesk.Application.csproj" />
+    <ProjectReference Include="..\FlowDesk.Infrastructure\FlowDesk.Infrastructure.csproj" />
+    <ProjectReference Include="..\FlowDesk.Persistence\FlowDesk.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Worker\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Worker\.editorconfig" />
+  </ItemGroup>
 </Project>

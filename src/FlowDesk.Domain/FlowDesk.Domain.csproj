@@ -6,4 +6,25 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\Enums\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\ValueObjects\" />
+    <Folder Include="Identity\" />
+    <Folder Include="Comments\" />
+    <Folder Include="Files\" />
+    <Folder Include="Notifications\" />
+    <Folder Include="Tasks\" />
+    <Folder Include="Projects\" />
+    <Folder Include="Organizations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Domain\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Domain\.editorconfig" />
+  </ItemGroup>
+
 </Project>

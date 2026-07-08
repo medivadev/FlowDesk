@@ -6,4 +6,30 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.9" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlowDesk.Application\FlowDesk.Application.csproj" />
+    <ProjectReference Include="..\FlowDesk.Domain\FlowDesk.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Authentication\" />
+    <Folder Include="Email\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="Storage\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Infrastructure\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ARKA-Alizadeh\Sources\FlowDesk\src\FlowDesk.Infrastructure\.editorconfig" />
+  </ItemGroup>
+
 </Project>
