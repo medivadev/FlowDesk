@@ -8,4 +8,8 @@
     <UserSecretsId>32b71e3f-17dc-4105-90ce-a889772f175f</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FlowDesk.Api\FlowDesk.Api.csproj" />
+  </ItemGroup>
+
 </Project>

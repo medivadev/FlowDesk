@@ -7,11 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\Projects\DTOs\**" />
+    <Compile Remove="Features\Projects\Queries\**" />
+    <EmbeddedResource Remove="Features\Projects\DTOs\**" />
+    <EmbeddedResource Remove="Features\Projects\Queries\**" />
+    <None Remove="Features\Projects\DTOs\**" />
+    <None Remove="Features\Projects\Queries\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FlowDesk.Domain\FlowDesk.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\" />
     <Folder Include="Behaviors\" />
     <Folder Include="Common\" />
     <Folder Include="Features\Authentication\Commands\" />
@@ -20,7 +28,6 @@
     <Folder Include="Features\Authentication\Validators\" />
     <Folder Include="Features\Authentication\Queries\" />
     <Folder Include="Features\Organizations\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="DependencyInjection\" />
   </ItemGroup>
 
