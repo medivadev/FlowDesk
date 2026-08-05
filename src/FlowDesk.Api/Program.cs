@@ -1,3 +1,5 @@
+using FlowDesk.Api.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -66,6 +68,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // Endpoints
+app.MapEndpoints();
 
 app.Run();
 

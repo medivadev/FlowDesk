@@ -21,9 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Endpoints\" />
     <Folder Include="Middleware\" />
-    <Folder Include="Extensions\" />
     <Folder Include="DependencyInjection\" />
   </ItemGroup>
 

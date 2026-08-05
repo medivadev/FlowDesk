@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using FlowDesk.Application.Abstractions;
 
 namespace FlowDesk.Application.Features.Projects.CreateProject;
 
-public record Command(
+public sealed record Command(
     string Name,
     string Description,
-    Guid WorkspaceId);
+    Guid WorkspaceId): ICommand<Response>;
